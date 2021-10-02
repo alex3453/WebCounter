@@ -1,30 +1,20 @@
-const requestURL = 'https://jsonplaceholder.typicode.com/users'
+const requestURL = 'http://localhost:5000/about'
 
 document.addEventListener("DOMContentLoaded", sendUserStat);
 
 function sendUserStat(){
-    const body = {
-    host: window.location.host
+  const headers = {
+    'Content-Type': 'application/json;charset=utf-8'
+  }
+  const user = {
+    name: 'John',
+    surname: 'Smith'
   }
 
-  sendRequest('POST', requestURL, body)
-    .then(data => console.log(data))
+  fetch(requestURL, {
+    method: 'POST',
+    body: JSON.stringify(user),
+    headers: headers
+  }).then(data => console.log(data))
     .catch(err => console.log(err))
 }
-
-function sendRequest(method, url, body = null) {
-  const headers = {
-    'Content-Type': 'application/json'
-  }
-
-  return fetch(url, {
-    method: method,
-    body: JSON.stringify(body),
-    headers: headers
-  }).then(response => {
-    if (response.ok) {
-      return response.json()
-    }
-  })
-}
-

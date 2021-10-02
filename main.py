@@ -1,22 +1,19 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, request
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 
-
 @app.route('/')
-@app.route('/home')
 def index():
     return render_template('index.html')
 
 
-@app.route('/about')
+@app.route('/about', methods=['POST'])
+@cross_origin()
 def about():
-    return render_template('about.html')
-
-
-@app.route('/user/<string:name>/<int:id>')
-def user(name, id):
-    return 'user : ' + name + ' - ' + str(id)
+    f = request.get_json()
+    print(f)
+    return "Add the json request."
 
 
 if __name__ == "__main__":
