@@ -21,7 +21,7 @@ def test():
 
 
 @app.route('/makenode', methods=['POST'])
-@cross_origin()
+# @cross_origin()
 def make_node():
     stat.update_stat(request)
 
