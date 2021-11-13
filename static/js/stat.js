@@ -1,4 +1,4 @@
-const requestURL = 'https://web-counter.herokuapp.com/makenode'
+const requestURL = 'http://127.0.0.1:5000/makenode'
 
 document.addEventListener("DOMContentLoaded", sendUserStat);
 

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f5b57a1-b140-48b5-9285-183795dff7bb" name="Default Changelist" comment="LocalPageStart">
-      <change afterPath="$PROJECT_DIR$/stat_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/stat_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/stat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcountpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/testcountpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcountpage.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -142,7 +144,11 @@
       <workItem from="1632840553061" duration="10448000" />
       <workItem from="1633188629781" duration="5680000" />
       <workItem from="1633244081483" duration="11833000" />
-      <workItem from="1633258588839" duration="925000" />
+      <workItem from="1633258588839" duration="1991000" />
+      <workItem from="1633453122558" duration="61000" />
+      <workItem from="1636651699770" duration="12883000" />
+      <workItem from="1636811672747" duration="568000" />
+      <workItem from="1636828324640" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="ProjectCreated">
       <created>1632681378134</created>
@@ -191,20 +197,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/stat_class.py</url>
-          <line>5</line>
+          <line>39</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stat_class.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="stat.dict" language="Python" />
+        <watch expression="key == ''" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WebCounter$stat_class.coverage" NAME="stat_class Coverage Results" MODIFIED="1633256477145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WebCounter$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1633259146770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCounter$stat_class.coverage" NAME="stat_class Coverage Results" MODIFIED="1636828663852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCounter$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1636828707550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WebCounter$main.coverage" NAME="main Coverage Results" MODIFIED="1633208072821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
