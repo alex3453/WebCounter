@@ -34,5 +34,6 @@ def look_stat():
         except:
             return 'data is ampty'
 
-
-app.run(debug=True)
+#
+# if __name__ == "__main__":
+#     app.run(debug=True)

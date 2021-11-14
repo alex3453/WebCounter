@@ -4,11 +4,6 @@
     <list default="true" id="1f5b57a1-b140-48b5-9285-183795dff7bb" name="Default Changelist" comment="ProjectCreated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stat_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/stat_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/stat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/testcountpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/testcountpage1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +146,7 @@
       <workItem from="1636828324640" duration="4104000" />
       <workItem from="1636872703257" duration="3647000" />
       <workItem from="1636885863014" duration="2824000" />
-      <workItem from="1636891607411" duration="927000" />
+      <workItem from="1636891607411" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="ProjectCreated">
       <created>1632681378134</created>
