@@ -22,7 +22,7 @@ def test():
 
 @app.route('/makenode', methods=['POST'])
 @cross_origin()
-def make_node():
+def makenode():
     stat.update_stat(request)
     return 'node done'
 
@@ -30,7 +30,10 @@ def make_node():
 @app.route('/lst')
 def look_stat():
     with open('data.json', 'r') as f:
-        return json.load(f)
+        try:
+            return json.load(f)
+        except:
+            return 'data is ampty'
 
 
 def saving():

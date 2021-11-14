@@ -45,7 +45,6 @@ class Stat:
         Stat._increment_dict_counter(host_stat['users_ip_stat'], ip)
 
 
-
     def _create_dict_for_new_host(self, host):
         self.stats[host] = {
             'total_visits_count': 0,
