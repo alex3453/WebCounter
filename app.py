@@ -5,7 +5,7 @@ from flask_cors import cross_origin
 from stat_class import Stat
 
 app = Flask(__name__)
-# stat = Stat()
+stat = Stat()
 
 
 @app.route('/')
@@ -35,6 +35,4 @@ def look_stat():
             return 'data is ampty'
 
 
-if __name__ == "__main__":
-    stat = Stat()
-    app.run(debug=True)
+app.run(debug=True)

@@ -14,13 +14,14 @@ class Stat:
                 'total_hosts_stat': {},
                 'date_hosts_stat': {}
             }
-            self.save_json()
+            # self.save_json()
 
     def save_json(self):
         with open('data.json', 'w') as f:
             json.dump(self.stats, f, indent=2)
 
     def update_stat(self, request):
+        print("+++++++++++++++++++++++++++++++++++++++++++++++")
         host = request.json['host']
         if host not in self.stats['total_hosts_stat'].keys():
             Stat._create_dict_for_new_host(self.stats['total_hosts_stat'], host)
