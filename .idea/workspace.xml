@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stat_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/stat_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/stat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <workItem from="1636651699770" duration="12883000" />
       <workItem from="1636811672747" duration="568000" />
       <workItem from="1636828324640" duration="4104000" />
-      <workItem from="1636872703257" duration="792000" />
+      <workItem from="1636872703257" duration="1737000" />
     </task>
     <task id="LOCAL-00001" summary="ProjectCreated">
       <created>1632681378134</created>
@@ -191,15 +190,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ProjectCreated" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/stat_class.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="stat.dict" language="Python" />

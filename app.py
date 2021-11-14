@@ -39,7 +39,7 @@ def look_stat():
 def saving():
     while True:
         stat.save_json()
-        time.sleep(10)
+        time.sleep(5)
 
 
 if __name__ == "__main__":
