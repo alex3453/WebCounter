@@ -33,7 +33,3 @@ def look_stat():
             return json.load(f)
         except:
             return 'data is ampty'
-
-#
-# if __name__ == "__main__":
-#     app.run(debug=True)
