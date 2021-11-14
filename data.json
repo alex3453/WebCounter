@@ -1,0 +1,62 @@
+{
+  "total_hosts_stat": {
+    "127.0.0.1:5000": {
+      "total_visits_count": 2,
+      "average_depth": 0.5,
+      "unique_users_count": 1,
+      "paths_visits_stat": {
+        "/test": {
+          "total_visits_count": 1,
+          "unique_users_count": 1,
+          "referrer_stat": {},
+          "users_ip_stat": {
+            "127.0.0.1": 1
+          }
+        }
+      },
+      "browsers_stat": {
+        "\"Yandex\";v=\"21\"": 2
+      },
+      "operation_systems_stat": {
+        "\"Windows\"": 2
+      },
+      "languages_stat": {
+        "ru,en;q=0.9": 2
+      },
+      "users_ip_stat": {
+        "127.0.0.1": 2
+      }
+    }
+  },
+  "date_hosts_stat": {
+    "14-11-2021": {
+      "127.0.0.1:5000": {
+        "total_visits_count": 2,
+        "average_depth": 0.5,
+        "unique_users_count": 1,
+        "paths_visits_stat": {
+          "/test": {
+            "total_visits_count": 1,
+            "unique_users_count": 1,
+            "referrer_stat": {},
+            "users_ip_stat": {
+              "127.0.0.1": 1
+            }
+          }
+        },
+        "browsers_stat": {
+          "\"Yandex\";v=\"21\"": 2
+        },
+        "operation_systems_stat": {
+          "\"Windows\"": 2
+        },
+        "languages_stat": {
+          "ru,en;q=0.9": 2
+        },
+        "users_ip_stat": {
+          "127.0.0.1": 2
+        }
+      }
+    }
+  }
+}

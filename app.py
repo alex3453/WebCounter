@@ -1,6 +1,4 @@
 import json
-import threading
-import time
 
 from flask import Flask, render_template, request
 from flask_cors import cross_origin
@@ -22,7 +20,7 @@ def test():
 
 @app.route('/makenode', methods=['POST'])
 @cross_origin()
-def makenode():
+def make_node():
     stat.update_stat(request)
     stat.save_json()
     return 'node done'
@@ -36,14 +34,6 @@ def look_stat():
         except:
             return 'data is ampty'
 
-#
-# def saving():
-#     while True:
-#         stat.save_json()
-#         time.sleep(5)
-
 
 if __name__ == "__main__":
-    # saving_thread = threading.Thread(target=saving)
-    # saving_thread.start()
     app.run(debug=True)
