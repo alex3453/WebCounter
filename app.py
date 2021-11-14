@@ -24,6 +24,7 @@ def test():
 @cross_origin()
 def makenode():
     stat.update_stat(request)
+    stat.save_json()
     return 'node done'
 
 
@@ -35,14 +36,14 @@ def look_stat():
         except:
             return 'data is ampty'
 
-
-def saving():
-    while True:
-        stat.save_json()
-        time.sleep(5)
+#
+# def saving():
+#     while True:
+#         stat.save_json()
+#         time.sleep(5)
 
 
 if __name__ == "__main__":
-    saving_thread = threading.Thread(target=saving)
-    saving_thread.start()
+    # saving_thread = threading.Thread(target=saving)
+    # saving_thread.start()
     app.run(debug=True)
